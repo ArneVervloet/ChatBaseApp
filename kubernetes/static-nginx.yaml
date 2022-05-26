@@ -13,8 +13,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        imagePullPolicy: IfNotPresent
-        image: frontend
+        imagePullPolicy: Always
+        image: arneverv/frontend
         ports:
           - containerPort: 80
             name: http-web-svc
