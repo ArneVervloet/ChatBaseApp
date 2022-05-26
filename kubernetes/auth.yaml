@@ -13,8 +13,8 @@ spec:
     spec:
       containers:
       - name: auth
-        imagePullPolicy: IfNotPresent
-        image: authapi
+        imagePullPolicy: Always
+        image: arneverv/authapi
         ports:
           - containerPort: 3000
             name: http-web-svc
