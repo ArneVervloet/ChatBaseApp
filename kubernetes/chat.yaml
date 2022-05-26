@@ -13,8 +13,8 @@ spec:
     spec:
       containers:
       - name: chat
-        imagePullPolicy: IfNotPresent
-        image: chatapi
+        imagePullPolicy: Always
+        image: arneverv/chatapi
         ports:
           - containerPort: 3000
             name: http-web-svc
